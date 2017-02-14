@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: #B2B0B0;
+}
+
+.container-stats {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 1140px;
+}
+
+.hero-stats {
+  width: 524px;
+  height: 240px;
+  border-radius: 2px;
+  border: 2px solid black;
+  float: left;
+  margin: 20px;
+  background-color: white;
+}
+
+.hero-card {
+  border-bottom: 1px solid black;
+  box-sizing: border-box;
+  height:123px;
+
+}
+
+.hero-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    padding: 11px;
+    float: left;
+}
+
+.hero-name {
+  float: left;
+  padding: 10px;
+}
