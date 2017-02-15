@@ -49,3 +49,21 @@ body {
   margin: 9px;
   float: left;
 }
+
+.azer {
+  width: 300px;
+    height: 700px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+.global-stats {
+  width: 568px;
+    float: left;
+    height: 1143px;
+    border: 1px solid black;
+    padding-left: 15;
+    margin-left: 13px;
+}
