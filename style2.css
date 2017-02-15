@@ -9,7 +9,7 @@ body {
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
-  width: 1140px;
+  width: 1170px;
 }
 
 .hero-stats {
@@ -42,4 +42,10 @@ body {
   padding: 10px;
 }
 
-.
+.kill {
+  width: 93px;
+  height: 39px;
+  border: 1px solid black;
+  margin: 9px;
+  float: left;
+}
