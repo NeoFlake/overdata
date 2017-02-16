@@ -26,7 +26,6 @@
 header{
   height: 280px;
   width: 100%;
-  border-bottom: solid 2px #B2B0B0;
   background-color: #434848;
 }
 
@@ -183,5 +182,17 @@ header h1{
 
 .downheader{
   height: 25%;
-  background-color: white;
+  display: flex;
+  background-color: #B2B0B0;
+}
+
+.headerNavArea{
+  flex:1;
+  display: flex;
+  background-color: lightblue;
+}
+
+.switcherModeArea{
+  flex: 1;
+  background-color: lightgreen;
 }
