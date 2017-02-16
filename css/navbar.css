@@ -1,10 +1,135 @@
+@font-face {
+  font-family: overfont;
+  src: url("../font/overfont.ttf");
+}
+
+@font-face {
+  font-family: italoverfont;
+  src: url("../font/italoverfont.ttf");
+}
+
+@font-face {
+  font-family: geo;
+  src: url("../font/geo.ttf");
+}
+
+@font-face {
+  font-family: italogeo;
+  src: url("../font/italogeo.ttf");
+}
+
 *{
   margin: 0;
   padding: 0;
 }
 
 header{
-  height: 300px;
+  height: 280px;
   width: 100%;
-  background-color: darkblue;
+  border-bottom: solid 2px #B2B0B0;
+  background-color: #434848;
+}
+
+.upheader{
+  height: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.upHeaderContainer{
+  height: 60%;
+  width: 100%;
+  display: flex;
+}
+
+.idArea{
+  flex: 1;
+  display: flex;
+}
+
+.leftSide{
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.playerIcon{
+  height: 83%;
+  width: 75%;
+  position: relative;
+  border: solid 1px #B2B0B0;
+  border-radius: 4px;
+}
+
+.leftSide img{
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.playerLevel{
+  height: 35%;
+  width: 35%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  background-color: rgba(255, 255, 255, .5);
+  z-index: 2;
+}
+
+.playerLevel span{
+  font-family: geo;
+  font-weight: bolder;
+}
+
+.mainSide{
+  flex: 4;
+  height: 80%;
+  display: flex;
+  margin: auto;
+}
+
+.titleArea{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1{
+  font-family: italoverfont;
+  font-size: 40px;
+  letter-spacing: 0.05em;
+  font-weight: 550;
+  color: #F99E1A;
+  text-shadow: #C47D15 1px 1px, #C47D15 0 0, #C47D15 0 0, #C47D15 0 0;
+}
+
+.plformArea{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.plformArea h2{
+  margin-top: .5em;
+  font-family: geo;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.statArea{
+  flex: 1;
+  background-color: purple;
+}
+
+.downheader{
+  height: 25%;
+  background-color: white;
 }
