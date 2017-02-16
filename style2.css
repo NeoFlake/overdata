@@ -1,33 +1,31 @@
 body {
-  margin: 0;
-  background-color: #B2B0B0;
+    margin: 0;
+    background-color: #B2B0B0;
 }
 
 .container-stats {
-
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 1170px;
 }
 
 .hero-stats {
-  width: 524px;
-  height: 240px;
-  border-radius: 2px;
-  /*border: 2px solid black;*/
-  float: left;
-  margin: 20px;
-  background-color: white;
-  box-shadow: 2px 2px rgba(0, 0, 0, 0.34);
+    width: 682px;
+    height: 240px;
+    border-radius: 2px;
+    /*border: 2px solid black;*/
+    float: left;
+    margin: 11px;
+    background-color: white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.34);
 }
 
 .hero-card {
-  border-bottom: 1px solid black;
-  box-sizing: border-box;
-  height:123px;
-
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    height: 123px;
 }
 
 .hero-avatar {
@@ -39,32 +37,66 @@ body {
 }
 
 .hero-name {
-  float: left;
-  padding: 10px;
+    float: left;
+    padding: 27px 10px 10px 10px;
 }
 
 .kill {
-  width: 93px;
-  height: 39px;
-  border: 1px solid black;
-  margin: 9px;
-  float: left;
+    width: 93px;
+    height: 39px;
+    border: 1px solid black;
+    margin: 9px;
+    float: left;
 }
 
 .azer {
-  width: 300px;
+    width: 370px;
     height: 700px;
     float: left;
     margin-left: 5px;
     margin-right: 5px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .global-stats {
-  width: 568px;
+    width: 724px;
     float: left;
     height: 1143px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     padding-left: 15;
     margin-left: 13px;
+}
+
+.play-time {
+    padding: 27px 28px 10px 10px;
+    float: right;
+}
+
+.win-loss {
+    padding: 27px 10px 10px 10px;
+    float: right;
+}
+
+.win-ratio {
+    padding: 27px 10px 10px 10px;
+    float: right;
+}
+
+footer {
+    /*border:1px solid black;*/
+    height: 200px;
+    width: 100%;
+    float: left;
+    background-color: #43484C;
+}
+
+.hero-best-perform {
+    width: 348px;
+    height: 325px;
+    border-radius: 2px;
+    /* border: 2px solid black; */
+    float: left;
+    margin: 11px;
+    background-color: white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.34);
 }
