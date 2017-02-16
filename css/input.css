@@ -62,9 +62,10 @@
 .input__label-content {
 	position: relative;
 	display: block;
-	padding: 1.6em 0;
+	padding: 1em 0;
 	width: 100%;
   position: absolute;
+  font-size: 1.4em;
 }
 
 
