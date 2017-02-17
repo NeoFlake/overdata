@@ -21,12 +21,17 @@
 *{
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 header{
   height: 280px;
   width: 100%;
   background-color: #434848;
+}
+
+span, h1, h2{
+  cursor: default;
 }
 
 .upheader{
@@ -189,10 +194,99 @@ header h1{
 .headerNavArea{
   flex:1;
   display: flex;
-  background-color: lightblue;
+}
+
+.headerNavArea ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headerNavArea li{
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-family: geo;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  transition-property: all;
+  transition-duration: .1s;
+}
+
+.headerNavArea li:hover{
+  height: calc(100% - 2px);
+  background-color: #434848;
+  border-bottom: solid 2px #F99E1A;
+}
+
+.headerNavArea li a{
+  color: black;
+}
+
+.headerNavArea li:hover a{
+  color: white;
 }
 
 .switcherModeArea{
   flex: 1;
-  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+}
+
+.switcherZoneContainer{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switcherZone{
+  height: 60%;
+  width: 80%;
+  display: flex;
+  border: solid 2px white;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: .1s;
+}
+
+.quickMatchZone{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: geo;
+  font-weight: 600;
+  border-right: solid 2px white;
+  cursor: pointer;
+}
+
+.quickMatchZone:hover, .rankedMatchZone:hover{
+  background-color: #434848;
+}
+
+.quickMatchZone a, .rankedMatchZone a{
+  color: black;
+}
+
+.quickMatchZone:hover a, .rankedMatchZone:hover a{
+  color: white;
+}
+
+.rankedMatchZone{
+  flex: 1.4;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: geo;
+  font-weight: 600;
+  cursor: pointer;
 }
