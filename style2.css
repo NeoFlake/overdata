@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #B2B0B0;
+    background-color: /*#B2B0B0*/ #F99E1A;
 }
 
 .container-stats {
@@ -84,7 +84,7 @@ body {
     float: right;
 }
 
-.win-ratio {
+.Medals {
     padding: 27px 10px 10px 10px;
     float: right;
 }
@@ -107,3 +107,20 @@ footer {
     background-color: white;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.34);
 }
+
+.align-center {
+  padding: 2px 0px 2px 0px;
+  text-align: center;
+}
+
+.ligne {
+  height: 25px;
+  display: flex;
+}
+
+.title, .value {
+  width: 174px;
+  border: 1px solid black
+}
+
+.
