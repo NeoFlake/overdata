@@ -46,13 +46,13 @@ body {
  .HealingDone-Avrg, .UltimCapa-Avrg, .OffAssist-Avrg, .DefAssist-Avrg {
     width: 93px;
     height: 39px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 9px;
     float: left;
 }
 
 .Avrg {
-  font-size: 12px;
+  font-size: 11px;
   text-align: center;
 }
 
@@ -99,7 +99,7 @@ footer {
 
 .hero-best-perform {
     width: 348px;
-    height: 325px;
+    /*height: 325px;*/
     border-radius: 2px;
     /* border: 2px solid black; */
     float: left;
@@ -120,7 +120,24 @@ footer {
 
 .title, .value {
   width: 174px;
-  border: 1px solid black
+  /*border: 1px solid black;*/
+  font-size: 12px;
+  padding-left: 12px;
 }
 
-.
+.value {
+    text-align: center;
+}
+
+ .rbrq {
+  color : white;
+  background-color: #4B4C4E;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+/*hr {
+  margin-top: 0px;
+  margin-bottom: 0px
+}*/
