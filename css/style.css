@@ -4,6 +4,12 @@ body {
   padding: 0;
 }
 
+h1 {
+  color: #4b4c4e;
+  font-size: 3em;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
+}
+
 .formcontain {
   display: flex;
   justify-content: center;
@@ -12,8 +18,9 @@ body {
   height: 100vh;
   font-family: overfont;
   background-color: #ddd;
+  background-image: url(../img/overbg.jpg);
+  background-size: cover;
 }
-
 .formcontain *,
 .formcontain *:after,
 .formcontain *:before {
