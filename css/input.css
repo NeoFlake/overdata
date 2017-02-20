@@ -1,4 +1,4 @@
-.input {
+#input-control {
 	position: relative;
 	z-index: 1;
 	display: inline-block;
@@ -7,6 +7,8 @@
 	width: calc(100% - 2em);
 	vertical-align: top;
   overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
 }
 
 .input__field {
@@ -60,7 +62,6 @@
 }
 
 .input__label-content {
-	position: relative;
 	display: block;
 	padding: 1em 0;
 	width: 100%;
