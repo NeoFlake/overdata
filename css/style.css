@@ -4,8 +4,12 @@ body {
   padding: 0;
 }
 
+h1 span {
+  color: #F99E1A;
+}
+
 h1 {
-  color: #4b4c4e;
+  color: #FFF;
   font-size: 3em;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
 }
